@@ -1,0 +1,86 @@
+Found path: /data/class/cs175/dongjuk3/obstacle-tower-pytorch-rainbow/./ObstacleTower/obstacletower.x86_64
+INFO:mlagents_envs.environment:Connected to Unity environment with package version 1.2.0-preview and communication version 1.0.0
+INFO:mlagents_envs.environment:Connected new brain:
+ObstacleTowerAgent-v4.1?team=0
+INFO:gym_unity:1 agent(s) within environment.
+/data/class/cs175/dongjuk3/.conda/envs/rainbow/lib/python3.6/site-packages/gym/logger.py:30: UserWarning: [33mWARN: Trying to monitor an environment which has no 'spec' set. This usually means you did not create it via 'gym.make', and is recommended only for advanced users.[0m
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+INFO:mlagents_envs.environment:Environment shut down with return code 0.
+DQN(
+  (conv1): Conv2d(3, 32, kernel_size=(8, 8), stride=(4, 4), padding=(1, 1))
+  (conv2): Conv2d(32, 64, kernel_size=(4, 4), stride=(2, 2))
+  (conv3): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1))
+  (fc_h_v): NoisyLinear()
+  (fc_h_a): NoisyLinear()
+  (fc_z_v): NoisyLinear()
+  (fc_z_a): NoisyLinear()
+)
+Conv2d(3, 32, kernel_size=(8, 8), stride=(4, 4), padding=(1, 1))
+Conv2d(32, 64, kernel_size=(4, 4), stride=(2, 2))
+Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1))
+NoisyLinear()
+NoisyLinear()
+NoisyLinear()
+NoisyLinear()
+Step 27: Got reward 1.00 (Total 1.00)
+ 🎉 Reached floor 1!
+Step 44: Got reward 0.10 (Total 1.10)
+Step 48: Got reward 0.10 (Total 1.20)
+Step 75: Got reward 1.00 (Total 2.20)
+ 🎉 Reached floor 2!
+Step 96: Got reward 0.10 (Total 2.30)
+Step 102: Got reward 0.10 (Total 2.40)
+Step 127: Got reward 0.10 (Total 2.50)
+Step 134: Got reward 0.10 (Total 2.60)
+Step 158: Got reward 1.00 (Total 3.60)
+ 🎉 Reached floor 3!
+Step 222: Got reward 0.10 (Total 3.70)
+Step 225: Got reward 0.10 (Total 3.80)
+Step 247: Got reward 0.10 (Total 3.90)
+Step 251: Got reward 0.10 (Total 4.00)
+Step 276: Got reward 1.00 (Total 5.00)
+ 🎉 Reached floor 4!
+Step 296: Got reward 0.10 (Total 5.10)
+Step 300: Got reward 0.10 (Total 5.20)
+Step 313: Got reward 0.10 (Total 5.30)
+Step 317: Got reward 0.10 (Total 5.40)
+Step 350: Got reward 1.00 (Total 6.40)
+ 🎉 Reached floor 5!
+Step 375: Got reward 0.10 (Total 6.50)
+Step 378: Got reward 0.10 (Total 6.60)
+Step 400: Got reward 0.10 (Total 6.70)
+Step 403: Got reward 0.10 (Total 6.80)
+Step 427: Got reward 0.10 (Total 6.90)
+Step 435: Got reward 0.10 (Total 7.00)
+Step 609: Got reward 0.10 (Total 7.10)
+Step 636: Got reward 0.10 (Total 7.20)
+Step 640: Got reward 0.10 (Total 7.30)
+Step 672: Got reward 1.00 (Total 8.30)
+ 🎉 Reached floor 6!
+Step 694: Got reward 0.10 (Total 8.40)
+Step 698: Got reward 0.10 (Total 8.50)
+Step 708: Got reward 0.10 (Total 8.60)
+Step 721: Got reward 0.10 (Total 8.70)
+Step 732: Got reward 0.10 (Total 8.80)
+Step 759: Got reward 0.10 (Total 8.90)
+Step 763: Got reward 0.10 (Total 9.00)
+Step 776: Got reward 0.10 (Total 9.10)
+Step 780: Got reward 0.10 (Total 9.20)
+Step 807: Got reward 1.00 (Total 10.20)
+ 🎉 Reached floor 7!
+Step 831: Got reward 0.10 (Total 10.30)
+Step 836: Got reward 0.10 (Total 10.40)
+Step 2202: Got reward 0.10 (Total 10.50)
+Step 2217: Got reward 0.10 (Total 10.60)
+Step 2221: Got reward 0.10 (Total 10.70)
+Step 2244: Got reward 0.10 (Total 10.80)
+Step 2248: Got reward 0.10 (Total 10.90)
+Step 2264: Got reward 0.10 (Total 11.00)
+Step 2268: Got reward 0.10 (Total 11.10)
+Step 2301: Got reward 1.00 (Total 12.10)
+ 🎉 Reached floor 8!
+Step 2323: Got reward 0.10 (Total 12.20)
+Step 2327: Got reward 0.10 (Total 12.30)
+Demo finished. Total reward: 12.300000064074993, Total steps: 3000
+Total floors reached (tracked): 8
+Demo video saved in the 'videos/03122351/' folder.
