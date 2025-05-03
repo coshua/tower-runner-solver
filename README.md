@@ -1,9 +1,9 @@
 ## Video
-[![Demo Run](./static/obstacle_tower_thumbnail.jpeg)](https://youtube.com/shorts/vnnIBQWUHAc?si=lqzl4uDdJBe-Ct5s)
+[![Demo Run](./static/obstacle_tower_thumbnail.jpeg)](https://youtu.be/6xtfvloIUY0)
 
 Fast-forwarded recording of the final trained model navigating the Obstacle Tower environment using Rainbow DQN. The agent consistently solves puzzles, collects keys, and clears multiple floors under sparse reward conditions.
 
-### [Full Video](https://youtube.com/shorts/vnnIBQWUHAc?si=lqzl4uDdJBe-Ct5s)
+### [Full Video](https://youtu.be/6xtfvloIUY0)
 
 ## Project Summary
 The Unity Obstacle Tower is a challenging, procedurally generated environment developed for AI research, designed to test the capabilities of agents in computer vision, control, planning, and generalization. The goal is to build agents that can learn to solve puzzles, navigate through dynamic environments, and make decisions under sparse and delayed reward structures, all while attempting to climb as many floors as possible within a limited time.
